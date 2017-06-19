@@ -1,0 +1,746 @@
+/* 
+http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* HTML5 display-role reset for older browsers END*/
+
+/* nav menu */
+
+nav {
+	width: 100%;
+	height: 96.37px;
+	border-bottom: 1px #000 solid;
+	
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding-top: 38px;
+	padding-right: 38px;
+	font-size: 25px;
+    
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+nav {
+	text-align: right;
+	font-family: "Cormorant SC", "Libre Baskerville", serif;
+	color: #000;
+
+}
+
+
+nav a:hover {
+color: #DBDBDB;
+background-color: #fff;    
+}
+
+/* nav menu end*/
+
+.wrapper {
+width: 1366px;
+margin: 0 auto;
+
+}
+.tobottom {
+padding: 30px;	
+margin-left: 200px; 
+	
+} 
+
+/*header section start*/
+
+.banner {
+	height:665px; 
+	background-image: url("../img/banner.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+}
+
+ #logo{
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 80px;
+	border: 0;
+	margin: 0px; 
+	padding: 0px;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+}
+
+header h2 {
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 160px;
+padding-left: 73px;
+font-size: 40px;
+}
+
+header p {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+padding-top: 15px;
+padding-left: 73px;
+font-size: 18px;
+line-height: 180%;
+
+}
+
+.soapsmall {
+padding-left: 50px;
+padding-top: 30px;
+
+}
+
+/*header section end padding-right: 193px;*/
+
+/*promo section*/
+
+.promo h3 {
+	height: 100%;
+	width: 32.33333333%;
+	padding: 0;
+	display: inline-block;
+	font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom:30px;
+
+
+}
+
+.promo img {
+	height: 100%;
+	float: left;
+	width: 33.33333333333%;
+	margin-top: 15px;
+	margin-bottom: 60px;
+	
+}
+ 
+.clearfix {
+	clear: both;
+
+}
+
+.viewproduct a {
+	font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 5px;
+	border: 3px black solid;
+	border-radius: 7px;
+	text-decoration: none;
+	padding: 10px;
+	margin: 125px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+.viewproduct a:hover {
+color: #DBDBDB;
+background-color: #fff; 
+border: 3px #DBDBDB solid;   
+}
+
+.viewproduct {
+	display: inline-block; 
+	list-style-position: none;
+	text-decoration-style: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+footer {
+height: 82.67px;
+background-color: #000;
+color: #B3B3B3;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+margin-top: 40px;
+
+}
+
+footer p {
+padding-left: 40px;
+position: absolute;
+margin-top: 35px;
+
+}
+
+footer a {
+text-decoration: none;
+color: #A7A7A7;
+float: right;
+border: 1.2px #A7A7A7 solid;
+border-radius: 7px;
+padding: 10px;
+margin: 25px 48px 0 20px;
+font-size: 14px;
+
+}
+footer a:hover {
+color: #000;
+background-color: #fff; 
+border: 1.2px #DBDBDB solid;
+}
+.clearfix {
+	clear: both;
+
+}
+
+/* New page_products */
+
+/*.products_1 {
+height: 100%; 
+}*/
+
+.shower_gel {
+display: inline-block;
+margin: -55px;
+display: inline-block;
+padding: 8px;
+
+}
+
+.shower_gel img {
+display: inline-block;
+border:2px solid #FF97AB;
+height: 200px;
+width: 170px;
+margin-left: 160px;
+
+}
+
+div.container {
+display: inline-block;
+height: 184px;
+width: 120px;
+background-color: #FF97AB;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 18px;
+line-height: 23px;
+padding: 10px;
+position: absolute;
+text-align: left;
+margin-left: -4px;
+
+} 
+.buy button:hover {
+color: #DBDBDB;
+background-color: #fff; 
+border: 3px #DBDBDB solid; 
+
+}
+
+.headingbig1 {
+background-color: #DBDBDB;
+color: #fff;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+text-align: center;
+
+}
+
+.heading2 {
+color: #FF97AB;
+font-size: 45px;
+text-align: center;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 50px;
+padding-bottom: 60px;
+margin-bottom: 40px;
+
+}
+
+.headingbig1 {
+height: 100px;
+line-height: 100px;
+font-size: 60px;
+margin-top: 130px;
+
+}
+
+.buy button {
+display: inline;
+padding: 8px;
+border-style: none;
+background-color: #fff;
+border: 1.2px #000 solid;
+border-radius: 3px;
+font-size: 20px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+padding-right: 35px;
+padding-left: 35px;
+
+}
+
+.buy {
+padding-top: 15px;
+position: absolute;
+margin: 160px;
+margin-top: 0px;
+font-size: 30px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+
+}
+
+.amount {
+float: right;
+padding-left: 40px;
+font-size: 30px;
+padding-top: 4px;
+
+}
+
+.shower_gel h3 {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 23px;
+width: 350px;
+text-align: center;
+line-height: 35px;
+padding-bottom: 15px;
+margin-left: 145px;
+
+}
+
+/*start of new product page2*/
+
+/*.products_2 {
+height: 0 auto 100%; 
+} */
+
+.botanical_bar {
+display: inline-block;
+margin: -55px;
+display: inline-block;
+padding: 8px;
+
+}
+
+.botanical_bar img {
+display: inline-block;
+border:2px solid #A0C36C;
+height: 200px;
+width: 170px;
+margin-left: 160px;
+
+}
+
+div.container2 {
+display: inline-block;
+height: 184px;
+width: 120px;
+background-color: #A0C36C;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 18px;
+line-height: 23px;
+padding: 10px;
+position: absolute;
+text-align: left;
+margin-left: -4px;
+
+} 
+
+.headingbig {
+background-color: #DBDBDB;
+color: #fff;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+text-align: center;
+/*width: 100%;*/
+margin-top: 150px;
+}
+
+.heading3 {
+color: #A0C36C;
+font-size: 55px;
+text-align: center;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 92px;
+padding-bottom: 130px;
+
+}
+
+.headingbig {
+height: 100px;
+line-height: 100px;
+font-size: 60px;
+margin-top: 180px;
+
+}
+
+.amount {
+float: right;
+padding-left: 40px;
+font-size: 30px;
+padding-top: 4px;
+
+}
+
+.botanical_bar h3 {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 23px;
+width: 350px;
+text-align: center;
+line-height: 35px;
+padding-bottom: 15px;
+margin-left: 145px;
+
+}
+
+/*start of new product section3*/
+
+/*.products_3 {
+height: 0 auto 100%; 
+
+} */
+.premium_bar {
+display: inline-block;
+margin: -55px;
+display: inline-block;
+padding: 8px;
+
+}
+
+.premium_bar img {
+display: inline-block;
+border:2px solid #8572AA;
+height: 200px;
+width: 170px;
+margin-left: 160px;
+
+}
+
+div.container3 {
+display: inline-block;
+height: 184px;
+width: 120px;
+background-color: #8572AA;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 18px;
+line-height: 23px;
+padding: 10px;
+position: absolute;
+text-align: left;
+margin-left: -4px;
+color: #fff;
+
+} 
+
+
+.heading5 {
+color: #8572AA;
+font-size: 55px;
+text-align: center;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 92px;
+padding-bottom: 130px;
+
+}
+
+.amount {
+float: right;
+padding-left: 40px;
+font-size: 30px;
+padding-top: 4px;
+
+}
+
+.premium_bar h3 {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 23px;
+width: 350px;
+text-align: center;
+line-height: 35px;
+padding-bottom: 15px;
+margin-left: 145px;
+
+}
+
+/*end of product section*/
+
+/*start of new product section4*/
+
+/*.products_4 {
+height: 280px;
+
+} */
+
+.final_product {
+display: inline-block;
+margin-bottom: 286px;
+margin-left: 80px;
+
+}
+
+.final_product img {
+display: inline-block;
+border: 2px solid #FF801E;
+height: 200px;
+width: 170px;
+margin-left: 160px;
+
+}
+
+div.container4 {
+display: inline-block;
+height: 184px;
+width: 120px;
+background-color: #FF801E;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 18px;
+line-height: 23px;
+padding: 10px;
+position: absolute;
+text-align: left;
+margin-left: -4px;
+color: #fff;
+
+} 
+
+.heading6 {
+color: #FF801E;
+font-size: 55px;
+text-align: center;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 70px;
+padding-bottom: 70px;
+
+}
+
+.amount {
+float: right;
+padding-left: 40px;
+font-size: 30px;
+padding-top: 4px;
+
+}
+
+.final_product h3 {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 23px;
+width: 350px;
+text-align: center;
+line-height: 35px;
+padding-bottom: 15px;
+margin-left: 145px;
+
+}
+
+.headingbig4 {
+background-color: #DBDBDB;
+color: #fff;
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+text-align: center;
+width: 100%;
+height: 100px;
+margin-top: 310px;
+
+}
+
+.product_footer{
+margin-top: -90px;
+
+}
+
+/*end of product section4*/
+
+/*start contact us page*/
+
+
+.contact_info h2 {
+font-family: "Cormorant SC", "Libre Baskerville", serif;
+padding-top: 160px;
+padding-left: 130px;
+font-size: 40px;
+
+}
+
+.contact_info  p {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+padding-top: 15px;
+padding-left: 130px;
+font-size: 20px;
+line-height: 180%;
+
+}
+
+form {
+text-align: center;
+margin-top: -300px;
+
+}
+
+fieldset input {
+text-decoration-style: none
+border-style: none;
+width: 350px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 16px;
+
+}
+
+input {
+	border: 1.2px #000 solid;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 10px;
+	width: 350px;
+	margin-bottom: 15px;
+
+}
+
+textarea {
+	border-radius: 4px;
+	width: 350px;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 15px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+
+}
+
+.submit_button input {
+background-color: #000;
+color: #fff;
+font-size: 20px;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+margin-bottom: 130px;
+
+}
+.submit_button input:hover {
+color: #000;
+background-color: #fff; 
+border: 3px #DBDBDB solid;
+}
+.open_hours {
+float: right;
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+margin-top: -440px;
+line-height: 38px;
+padding-right: 100px;
+font-size: 20px;
+
+}
+
+.open_hours strong {
+font-weight: bold;
+
+}
+.footer_contact{
+margin-top: -60px;
+}
+
+/*end of contact_use*/
+/*star terms and conditions*/
+
+.readthrough {
+
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 30px;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 10px;
+}
+
+.policyheading {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 50px;
+text-align: center;
+padding-top: 20px;
+
+}
+
+.policytext {
+font-family: "OpenSans-Light", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+font-size: 16px;
+margin: 50px 100px 100px 100px ;
+font-size: 18px;
+line-height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
